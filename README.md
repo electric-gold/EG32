@@ -16,3 +16,6 @@ Reloading a gun | **R** | ✅ v0.24
 Switching weapons | **SCROLL, NUMPAD** | ✅ v0.24
 Crouching | **LEFT CTRL** | ⚠️ v0.24
 Focusing | **MOUSE1** | ❌ N/A
+## Credits
+___
+I'd like to thank the ROLVe Community and Riot Games for inspiring me to merge your games. Also, this game will be free! I am NOT making you pay for anything. There might be in-game purchasing, but that's it. All up to you.
