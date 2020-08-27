@@ -5,7 +5,9 @@ Electric Gold is a game inspired by many other FPS games, including **[Arsenal](
 ## How do I Play?
 ___
 ✅ = Completed
+
 ⚠️ = Under heavy development, but still being used
+
 ❌ = A thought or two I had, not implemented at all
 Action | Controls | Implemented
 ------------ | -------------|---------
