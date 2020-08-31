@@ -12,8 +12,8 @@ ___
 Action | Controls | Implemented
 ------------ | -------------|---------
 Shooting a gun | **MOUSE0** | ✅ v0.24
-Reloading a gun | **R** | ✅ v0.24
-Switching weapons | **SCROLL, NUMPAD** | ✅ v0.24
+Reloading a gun | **R** | ❌ N/A
+Switching weapons | **SCROLL, NUMPAD** | ✅ v0.24.0312
 Crouching | **LEFT CTRL** | ⚠️ v0.24
 Focusing | **MOUSE1** | ❌ N/A
 ## Credits
