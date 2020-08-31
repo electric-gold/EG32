@@ -14,6 +14,7 @@ public class Shoot : MonoBehaviour
     public Text DamageUI;
     public GameObject Enemy;
     public float speed = 20f;
+    public float StayThere;
     public static float EnemyHealth = 100;
     public GameObject bulletModel;
     public GameObject bulletSpawn;
@@ -30,7 +31,7 @@ public class Shoot : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             /*Destroy(bulletModel);*/
-            Constant();
+            _bulletpos = true;
             ShootWeapon();
         }
     }
@@ -79,17 +80,15 @@ public class Shoot : MonoBehaviour
         holder = 0;
         while (holder < range && _bulletpos == false)
         {
-            bulletModel.transform.Translate(FinalMouseX, 0f, speed * Time.deltaTime);
-            holder++;
+            XPositionFix.Instance.XPos = FinalMouseX;
+            StayThere = XPositionFix.Instance.XPos;
+            bulletModel.transform.Translate(StayThere, 0f, speed * Time.deltaTime);
+            holder++;            
         }
         if (holder == range)
         {
             Debug.Log("Holder = Range");
+            _bulletpos = true;
         }
-    }
-    void Constant()
-    {
-        FinalMouseX = fpsCam.transform.position.x;
-        _bulletpos = true;
     }
 }

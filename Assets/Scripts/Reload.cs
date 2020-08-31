@@ -26,6 +26,7 @@ public class Reload : MonoBehaviour
         if (Input.GetMouseButtonDown(0) && CurrentMag > 0 && AllMags > -15)
         {
             CurrentMag--;
+            ReloadGunText.text = CurrentMag + "/" + AllMags;
             if (CurrentMag == 15 && AllMags == -15)
             {
                 ReloadGunText.text = "0/0";

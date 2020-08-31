@@ -18,6 +18,7 @@ public class MouseCam : MonoBehaviour
     void Start()
     {
         UnityEngine.Cursor.lockState = CursorLockMode.Locked;
+        UnityEngine.Cursor.visible = false;
     }
 
     // Update is called once per frame
