@@ -5,4 +5,4 @@ Electric Gold is a game inspired by many other FPS games, including **[Arsenal](
 
 # Links
 ___
-## 🔗 [Development](https://electric-gold.github.io/EG32/devproc.md)
+- 🔗 **[Development](https://electric-gold.github.io/EG32/devproc.md)**
