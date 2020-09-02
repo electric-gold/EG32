@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+# Electric Gold
+### The FPS game that goes to *32*
+___
+Electric Gold is a game inspired by many other FPS games, including **[Arsenal](https://web.roblox.com/games/286090429/Arsenal?refPageId=da7cd7fb-8629-4682-8a7c-25f5d0ddbfdb)** and **[Valorant](https://playvalorant.com)**. You have to be the first to get 32 kills while at least getting 6 kills with your special ability of choice. There are new skins, melees, avatars, and kill effects every month, so be sure to get the best ones. 
+## How do I Play?
+___
+✅ = Completed
 
-You can use the [editor on GitHub](https://github.com/electric-gold/game/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+⚠️ = Under heavy development, but still being used
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/electric-gold/game/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+❌ = A thought or two I had, not implemented at all
+Action | Controls | Implemented
+------------ | -------------|---------
+Shooting a gun | **MOUSE0** | ✅ v0.24
+Reloading a gun | **R** | ❌ N/A
+Switching weapons | **SCROLL, NUMPAD** | ✅ v0.24.0312
+Crouching | **LEFT CTRL** | ⚠️ v0.24
+Focusing | **MOUSE1** | ❌ N/A
+## Credits
+___
+I'd like to thank the ROLVe Community and Riot Games for inspiring me to merge your games. Also, this game will be free! I am NOT making you pay for anything. There might be in-game purchasing, but that's it. All up to you.
